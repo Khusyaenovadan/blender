@@ -82,7 +82,7 @@
 
 body {
     font-family: 'Monsterratbold', serif;
-    background-color: black;
+    background-color: #252237;
 }
 
 .container {
@@ -103,7 +103,7 @@ body {
     height: 710px;
     background-image: url(./images/fon\ 1.jpg);
     background-position: center;
-    padding-bottom: 136px;
+    padding-bottom: 300px;
     background-size: cover;
 }
 
@@ -149,4 +149,36 @@ body {
     height: 80px;
     box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
     background-color: #e2521d;
+}
+.about__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+   
+}
+.about__description{
+    max-width: 542px;
+}
+.about__title{
+    font-family: 'Gilroy-Bold ☞';
+    font-weight: 700;
+font-size: 50px;
+line-height: 124%;
+color: #fff;
+margin-bottom: 80px;
+}
+.about__desc{
+font-family: 'Gilroy-Bold ☞';
+    font-weight: 400;
+font-size: 25px;
+line-height: 160%;
+color: #e2521d;
+margin-bottom: 17px;
+}
+.about__text{
+    font-family: 'Gilroy-Bold ☞';
+    font-weight: 400;
+font-size: 18px;
+line-height: 189%;
+color: #8997ab;
 }
