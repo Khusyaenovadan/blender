@@ -58,7 +58,7 @@
 
 
 @font-face {
-    font-family:'Monsterratbold';
+    font-family: 'Monsterratbold';
     src: url(./fonts/Montserrat-Bold.ttf);
     font-weight: normal;
     font-style: normal;
@@ -66,7 +66,7 @@
 
 
 @font-face {
-    font-family:'Monsterratregular';
+    font-family: 'Monsterratregular';
     src: url(./fonts/Montserrat-Regular.ttf);
     font-weight: normal;
     font-style: normal;
@@ -74,14 +74,15 @@
 
 
 @font-face {
-    font-family:'Monsterratsemibold';
+    font-family: 'Monsterratsemibold';
     src: url(./fonts/Montserrat-SemiBold.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'Monsterratbold' , serif;
+    font-family: 'Monsterratbold', serif;
+    background-color: black;
 }
 
 .container {
@@ -91,8 +92,61 @@ body {
 }
 
 @media(min-width:780px) {
-    
-.container {
-       padding: 0 50px;
-       }
+
+    .container {
+        padding: 0 50px;
+    }
+}
+
+.header {
+    padding-top: 50px;
+    height: 710px;
+    background-image: url(./images/fon\ 1.jpg);
+    background-position: center;
+    padding-bottom: 136px;
+    background-size: cover;
+}
+
+.header__banner {
+    max-width: 433px;
+    margin-left: 150px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.header__title {
+    font-family: 'Monsterratbold';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 93%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header__desc {
+    font-family: 'Monsterratregular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.header__btn {
+    border: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 243%;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    width: 367px;
+    height: 80px;
+    box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
+    background-color: #e2521d;
 }
