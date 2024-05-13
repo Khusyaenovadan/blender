@@ -150,35 +150,197 @@ body {
     box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
     background-color: #e2521d;
 }
-.about__wrapper{
+
+.about__wrapper {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-   
+    align-items: center;
+
 }
-.about__description{
+
+.about__description {
     max-width: 542px;
 }
-.about__title{
+
+.about__title {
     font-family: 'Gilroy-Bold ☞';
     font-weight: 700;
-font-size: 50px;
-line-height: 124%;
-color: #fff;
-margin-bottom: 80px;
+    font-size: 50px;
+    line-height: 124%;
+    color: #fff;
+    margin-bottom: 80px;
 }
-.about__desc{
-font-family: 'Gilroy-Bold ☞';
-    font-weight: 400;
-font-size: 25px;
-line-height: 160%;
-color: #e2521d;
-margin-bottom: 17px;
-}
-.about__text{
+
+.about__desc {
     font-family: 'Gilroy-Bold ☞';
     font-weight: 400;
-font-size: 18px;
-line-height: 189%;
-color: #8997ab;
+    font-size: 25px;
+    line-height: 160%;
+    color: #e2521d;
+    margin-bottom: 17px;
+}
+
+.about__text {
+    font-family: 'Gilroy-Bold ☞';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 189%;
+    color: #8997ab;
+}
+
+.learn__h2 {
+    width: 449px;
+    margin: 0 auto;
+    font-family: 'Monsterratbold';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 124%;
+    text-align: center;
+    color: #fff;
+    padding-top: 62px;
+    padding-bottom: 92px;
+}
+
+.learn_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:70px ;
+}
+
+.learn__card {
+    width: 412px;
+    justify-self: center;
+    font-family: 'Gilroy-Medium ☞';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 189%;
+    color: #fff;
+}
+
+.kind__h2 {
+    width: 449px;
+    margin: 0 auto;
+    font-family: 'Monsterratbold';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 124%;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+
+}
+
+.kind__first {
+    border-radius: 2px;
+    width: 1021px;
+    background: #e2521d;
+    margin: 0 auto;
+    /*  padding-left: 210px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.kind__first p {
+    font-family: 'Monsterratsemibold';
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 90px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.kind__first a {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items:flex-end;*/
+    padding-right: 66px;
+    border-radius: 100%;
+    fill: rgba(196, 196, 196, 0);
+    stroke-width: 1px;
+    stroke: #fff;
+
+}
+
+
+.kind__second {
+    margin-bottom: 50px;
+}
+
+.kind__second a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 189%;
+    color: #8997ab;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.kind__third {
+    border-radius: 2px;
+    width: 1021px;
+    height: 100px;
+    background: #0e1b28;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kind__third p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Monsterratsemibold';
+    padding-left: 90px;
+}
+
+.kind__third a {
+    border-radius: 100%;
+    fill: rgba(196, 196, 196, 0);
+    stroke-width: 1px;
+    stroke: #e2521d;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 67px;
+}
+
+.kind__fourth {
+    border-radius: 2px;
+    width: 1021px;
+    height: 100px;
+    background: #0e1b28;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.kind__fourth p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Monsterratsemibold';
+    padding-left: 90px;
+}
+
+.kind__fourth a {
+    border-radius: 100%;
+    fill: rgba(196, 196, 196, 0);
+    stroke-width: 1px;
+    stroke: #e2521d;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 67px;
 }
