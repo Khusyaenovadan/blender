@@ -204,7 +204,7 @@ body {
 .learn_wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:70px ;
+    gap: 70px;
 }
 
 .learn__card {
@@ -215,6 +215,10 @@ body {
     font-size: 18px;
     line-height: 189%;
     color: #fff;
+}
+
+.kinds {
+    margin-bottom: 50px;
 }
 
 .kind__h2 {
@@ -324,7 +328,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
 }
 
 .kind__fourth p {
@@ -343,4 +347,52 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 67px;
+}
+
+.image__h3 {
+    margin: 0 auto;
+    font-family: 'Gilroy-Bold ☞';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 124%;
+    text-align: center;
+    color: #fff;
+
+}
+
+.images {
+    background-image: url(./images/fon\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1363px;
+    height: 710px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+
+}
+
+.image__text {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+
+}
+
+.image__text p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 175%;
+    color: #e2521d;
+    font-family: 'Monsterratregular';
+    padding-top: 164px;
+    padding-bottom: 50px;
+}
+
+.image__text span {
+    font-family: 'Monsterratregular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 189%;
+    color: #8997ab;
 }
